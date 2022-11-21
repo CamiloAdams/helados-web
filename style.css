@@ -1,0 +1,113 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Variables */
+:root{
+    --main-color: #ff6d46;
+    --second-color: #ecfdf9;
+    --text-color: #121011;
+    --bg-color: #fff;
+
+    /* Box Shadow */
+    --box-shadow: 0 0 16px 1px rgb(14 52 54 / 15%)
+}
+section{
+    padding: 50px 100px;
+}
+img{
+    width: 100%;
+}
+body{
+    color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 18px 100px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.logo .bx{
+    font-size: 24px;
+    color: var(--main-color);
+}
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    padding: 8px 17px;
+    color: var(--text-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500 ;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+.home{
+    width: 100%;
+    min-height: 740px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    gap: 1.5rem;
+    background: var(--second-color);
+}
+
+.home-text h1{
+    font-size: 3.4rem;
+    letter-spacing: 1px;
+}
+
+.home-text p{
+    max-width: 80%;
+    font-size: 0.938rem;
+    margin: 00.5rem 0 1.5rem;
+}
+
+.about{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    gap: 1.5rem;
+
+}
+
+.about-text h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.about-text p {
+    font-size: 0.938rem;
+}

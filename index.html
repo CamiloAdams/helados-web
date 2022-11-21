@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNSHelados</title>
+    <!-- Link To css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('n3kccu5grs7k');
+    </script>
+    <!-- End of Async Drift Code -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <!-- Logo -->
+        <a href="#" class="logo"><i class='bx bxs-popsicle'></i></a>
+
+        <ul class="navbar">
+            <li><a href="pages/login/login.html">Iniciar Sesión</a></li>
+            <li><a href="pages/register/register.html">Registrarse</a></li>
+        </ul>
+
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>CNS helados</h1>
+            <p>Es una empresa creada por un grupo de estudiantes, con el fin de realizar un proyecto basandonos en todo
+                lo relacionado a la produccion y ventas de
+                nuestros helados, ademas con el diseño de una pagina web buscamos que la compra de los mismos se de de
+                forma mas interactiva con nuestros clientes, tratando
+                de disminuir los tiempos y generar una amplia eficiencia del mismo.</p>
+        </div>
+        <!-- Home Image -->
+        <div class="home-img">
+            <img src="img/home.png" alt="">
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a la produccion y venta individual o al por mayor de helados con los mas altos
+                estadares de calidad.</p>
+            <p>Tenemos como objetivo principal brindarle una gran comodidad a nuestros diferentes clientes, ya que
+                estamos convencidos de que son el activo mas
+                importante de nuestra empresa y a su vez nos ayudaran a generar un mayor crecimiento y reconocimiento.
+            </p>
+            <p>Ademas buscamos que nuestro clientes se deleiten con nuestra amplia variedad de helados y sus diferentes
+                sabores innovadores, ya que nos
+                caracterizamos por brindar cosas nuevas en el mercado de los helados.</p>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- link to script -->
+    <script src="main.js"></script>
+</body>
+
+</html>
